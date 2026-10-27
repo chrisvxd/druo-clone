@@ -12,20 +12,14 @@ pnpx @puckeditor/cli init --yes --framework next --name druo-clone --ai --packag
 
 ## Quick start
 
-1. **Add a Puck API key.** The CLI writes `PUCK_API_KEY` to `.env.local` when you approve the Puck Cloud login. To add one by hand, [create a key](https://cloud.puckeditor.com/api-keys) and set:
-
-   ```sh
-   PUCK_API_KEY=your-api-key
-   ```
-
-2. **Install and run:**
+1. **Install and run:**
 
    ```sh
    pnpm install
    pnpm dev                # or: pnpm dev --port 3150 if 3000 is taken
    ```
 
-3. **Open a page, or add `/edit` to its URL to open the editor:**
+2. **Open a page, or add `/edit` to its URL to open the editor:**
 
    | Page                | View                                                                         | Edit                                                                                   |
    | ------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
@@ -34,7 +28,38 @@ pnpx @puckeditor/cli init --yes --framework next --name druo-clone --ai --packag
    | Dashboard: Payments | [/platform/payments](http://localhost:3000/platform/payments)                | [/platform/payments/edit](http://localhost:3000/platform/payments/edit)                |
    | Dashboard: Payouts  | [/platform/payouts](http://localhost:3000/platform/payouts)                  | [/platform/payouts/edit](http://localhost:3000/platform/payouts/edit)                  |
 
-4. **Build with AI.** In the editor, click **AI** in the left sidebar, type a prompt and press Enter. Click **Publish** to save.
+3. **Edit and publish.** Drag blocks in from **Blocks** in the left sidebar, click any text on the canvas to change it, and use the right-hand panel for links, images and settings. Click **Publish** to save. The page is written to `database.json`, and the view URL shows the new version.
+
+4. **Make a new page.** Open `/<any-path>/edit` and publish. Paths under `/platform` start with the dashboard blocks. All other paths use the marketing blocks.
+
+## AI quick start
+
+The **AI** panel, the last item in the editor's left sidebar, needs a Puck API key. Without one, everything else works, but the chat answers every prompt with `No Puck API key specified`.
+
+1. **Add a key** using either option:
+
+   - Let the CLI log in to Puck Cloud and write the key for you. From this folder, run the command, then approve the login in your browser:
+
+     ```sh
+     npx @puckeditor/cli connect
+     ```
+
+   - Or [create a key](https://cloud.puckeditor.com/api-keys) and add it to `.env.local` yourself:
+
+     ```sh
+     PUCK_API_KEY=your-api-key
+     ```
+
+2. **Restart the dev server** so Next.js loads `.env.local`.
+
+3. **Prompt.** Open an editor, click **AI**, type a prompt and press Enter. For example:
+
+   - On `/edit`: "Add a section about paying utility bills with autopay, in the same style as the rest of the page"
+   - On `/platform/edit`: "Add a row with a refunds chart and a list of the five largest payments this week"
+
+4. **Publish** to keep the result.
+
+The marketing editor starts in **design mode**, where the AI can create new components. The dashboard editor starts in **assembly mode**, where it builds only from the existing blocks. Both can be switched in the chat box. [Puck AI](#puck-ai) explains how each surface gets its own business context.
 
 ### Reset the content
 
@@ -224,7 +249,7 @@ These patterns are used in both configs. Follow them when adding components:
 ## Before deploying to production
 
 - **Protect the editor and APIs.** `/edit`, `/api/pages` and `/api/puck` are public. Add authentication, authorization and rate limits. `/api/puck` spends your Puck AI usage.
-- **Set `PUCK_API_KEY`** in your hosting provider's environment variables.
+- **Set `PUCK_API_KEY`** in your hosting provider's environment variables if you use Puck AI. Without it, the site and editor still work but the AI chat doesn't.
 - **Use a real database.** Replace `database.json` in `lib/get-page.ts` and `app/api/pages/route.ts`. Local files don't survive across server instances or serverless deployments.
 - **Replace the borrowed assets.** Images and logos are hotlinked from druo.com, and site links point at druo.com.
 
