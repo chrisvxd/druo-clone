@@ -1,0 +1,1143 @@
+{
+  "/": {
+    "root": {
+      "props": {
+        "title": "DRUO clone"
+      }
+    },
+    "content": [
+      {
+        "type": "Hero",
+        "props": {
+          "id": "Hero-3",
+          "title": "Pay any business right from your bank account",
+          "lead": "Check out in seconds wherever you shop. You don't need a card or a new app.",
+          "actions": [
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-1",
+                "label": "Get Started",
+                "href": "https://druo.com/en/get-started/",
+                "variant": "primary",
+                "wide": false
+              }
+            },
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-2",
+                "label": "How it Works",
+                "href": "https://druo.com/en/how-it-works/",
+                "variant": "white",
+                "wide": false
+              }
+            }
+          ],
+          "note": "Free to join. All you need is a bank account.",
+          "faces": [
+            {
+              "image": "https://druo.com/wp-content/smush-webp/2023/07/Screen-Shot-2022-08-20-at-1.31.35-PM-140x140.png.webp"
+            },
+            {
+              "image": "https://druo.com/wp-content/smush-webp/2022/08/group-hotel-staffs-standing-kitchen-comp-1-140x140.jpg.webp"
+            },
+            {
+              "image": "https://druo.com/wp-content/smush-webp/2022/08/Modern-Business-User-140x140.jpg.webp"
+            }
+          ],
+          "trust": "Trusted by 1.5M+ users",
+          "image": "https://druo.com/wp-content/uploads/2026/10/Group-4932-1.png",
+          "imageAlt": "Two friends paying from a phone, with a successful DRUO direct debit order"
+        }
+      },
+      {
+        "type": "FeatureRow",
+        "props": {
+          "id": "FeatureRow-7",
+          "title": "A smarter way to pay",
+          "lead": "Send money to the merchants you love straight from your bank. It's more secure, it's quicker and there are no fees.",
+          "cards": [
+            {
+              "type": "FeatureCard",
+              "props": {
+                "id": "FeatureCard-4",
+                "image": "https://druo.com/wp-content/smush-webp/2025/01/Select-Bank.png.webp",
+                "imageAlt": "Bank picker showing featured banks",
+                "title": "Pay with your bank",
+                "text": "Choose your bank and pay. You won't need a card or a separate wallet app."
+              }
+            },
+            {
+              "type": "FeatureCard",
+              "props": {
+                "id": "FeatureCard-5",
+                "image": "https://druo.com/wp-content/smush-webp/2025/01/DRUO-Token-Security.png.webp",
+                "imageAlt": "Tokenized DRUO payment card",
+                "title": "Protected by design",
+                "text": "Modern fraud protection makes paying with DRUO 50x safer than paying with a card."
+              }
+            },
+            {
+              "type": "FeatureCard",
+              "props": {
+                "id": "FeatureCard-6",
+                "image": "https://druo.com/wp-content/smush-webp/2025/01/Credit-Score.png.webp",
+                "imageAlt": "Credit score meter",
+                "title": "Grow your credit",
+                "text": "Each DRUO payment counts toward your credit score, so paying on time pays off."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Checkout",
+        "props": {
+          "id": "Checkout-10",
+          "title": "Find us at checkout",
+          "lead": "Shop online or at the counter, and DRUO pays straight from your bank account.",
+          "actions": [
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-8",
+                "label": "Get Started",
+                "href": "https://druo.com/en/get-started/",
+                "variant": "primary",
+                "wide": false
+              }
+            },
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-9",
+                "label": "How to Pay",
+                "href": "https://druo.com/en/pay-with-druo/",
+                "variant": "sand",
+                "wide": false
+              }
+            }
+          ],
+          "image": "https://druo.com/wp-content/uploads/2026/10/DRUO-Checkout-Mobile.png",
+          "imageAlt": "Online checkout with DRUO direct debit selected",
+          "sideImage": "https://druo.com/wp-content/smush-webp/2025/01/DRUO-In-Store-Checkout-Pay-By-Bank.png.webp",
+          "sideImageAlt": "In-store tap to pay and a successful autopay"
+        }
+      },
+      {
+        "type": "SplitBand",
+        "props": {
+          "id": "SplitBand-13",
+          "image": "https://druo.com/wp-content/uploads/2026/10/DRUO-Autopay.png",
+          "imageAlt": "DRUO subscription set to autopay from savings",
+          "title": "Pay the brands you love in seconds, or set it and forget it",
+          "text": "<p>Use DRUO for bills, memberships and everything in between, either one payment at a time or on a schedule. Link your bank once and the next payment goes out on its own.</p>",
+          "actions": [
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-11",
+                "label": "Get Started",
+                "href": "https://druo.com/en/get-started/",
+                "variant": "primary",
+                "wide": false
+              }
+            },
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-12",
+                "label": "How it Works",
+                "href": "https://druo.com/en/how-it-works/",
+                "variant": "primary",
+                "wide": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "DarkFeatures",
+        "props": {
+          "id": "DarkFeatures-18",
+          "title": "Pay on your terms, fast and safe.",
+          "lead": "Choose how and where you pay, and get an alert for every payment. You get more control than with any other way to pay.",
+          "cards": [
+            {
+              "type": "FeatureCard",
+              "props": {
+                "id": "FeatureCard-14",
+                "image": "https://druo.com/wp-content/smush-webp/2025/01/DRUO-Verified-Merchants-1.png.webp",
+                "imageAlt": "Verified merchant badge",
+                "title": "Verified merchants",
+                "text": "Every merchant is vetted before joining, so scammers stay out."
+              }
+            },
+            {
+              "type": "FeatureCard",
+              "props": {
+                "id": "FeatureCard-15",
+                "image": "https://druo.com/wp-content/smush-webp/2025/01/Control.png.webp",
+                "imageAlt": "Account toggles per bank",
+                "title": "Fine-grained controls",
+                "text": "Pick your settings once, or set them for each merchant."
+              }
+            },
+            {
+              "type": "FeatureCard",
+              "props": {
+                "id": "FeatureCard-16",
+                "image": "https://druo.com/wp-content/smush-webp/2025/01/DRUO-Transaction-Notification-2.png.webp",
+                "imageAlt": "Payment notification on a phone lock screen",
+                "title": "Instant alerts",
+                "text": "Get notified the moment any payment goes through."
+              }
+            },
+            {
+              "type": "FeatureCard",
+              "props": {
+                "id": "FeatureCard-17",
+                "image": "https://druo.com/wp-content/smush-webp/2025/01/Support.png.webp",
+                "imageAlt": "Two DRUO support team members",
+                "title": "Help from DRUO",
+                "text": "Reach the DRUO team directly whenever you need help."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "CtaStrip",
+        "props": {
+          "id": "CtaStrip-20",
+          "title": "Start paying from your bank account today",
+          "actions": [
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-19",
+                "label": "Connect Account",
+                "href": "https://druo.com/en/get-started/",
+                "variant": "primary",
+                "wide": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "BusinessCard",
+        "props": {
+          "id": "BusinessCard-22",
+          "eyebrow": "DRUO for businesses",
+          "title": "Grow your business with DRUO",
+          "text": "<p>Take payments straight from your customers' bank accounts to keep more of every sale and keep buyers happy.</p>",
+          "actions": [
+            {
+              "type": "Button",
+              "props": {
+                "id": "Button-21",
+                "label": "Get Started",
+                "href": "https://druo.com/en/get-started/",
+                "variant": "primary",
+                "wide": true
+              }
+            }
+          ],
+          "image": "https://druo.com/wp-content/smush-webp/2025/01/Product-Suite-Image.png.webp",
+          "imageAlt": "DRUO dashboard with integrations"
+        }
+      },
+      {
+        "type": "Faq",
+        "props": {
+          "id": "Faq-29",
+          "title": "Frequently Asked Questions (FAQ)",
+          "items": [
+            {
+              "type": "FaqItem",
+              "props": {
+                "id": "FaqItem-23",
+                "question": "What is DRUO?",
+                "answer": "<p>DRUO lets you pay businesses directly from your bank account, so you don't need a card or a payment app.</p>"
+              }
+            },
+            {
+              "type": "FaqItem",
+              "props": {
+                "id": "FaqItem-24",
+                "question": "Can my business accept payments with DRUO?",
+                "answer": "<p>Yes. See <a href=\"https://druo.com/en/sellers/\">DRUO for Business</a> to learn how.</p>"
+              }
+            },
+            {
+              "type": "FaqItem",
+              "props": {
+                "id": "FaqItem-25",
+                "question": "Is my bank account safe with DRUO?",
+                "answer": "<p>Yes. DRUO protects your account with encryption, step-by-step verification and around-the-clock monitoring for unusual activity.</p>"
+              }
+            },
+            {
+              "type": "FaqItem",
+              "props": {
+                "id": "FaqItem-26",
+                "question": "Does it cost anything to pay with DRUO?",
+                "answer": "<p>No. Paying with DRUO is free, and you won't pay the fees that come with cards.</p>"
+              }
+            },
+            {
+              "type": "FaqItem",
+              "props": {
+                "id": "FaqItem-27",
+                "question": "Can I pay merchants in other countries?",
+                "answer": "<p>Yes, as long as your bank is in the DRUO network.</p>"
+              }
+            },
+            {
+              "type": "FaqItem",
+              "props": {
+                "id": "FaqItem-28",
+                "question": "How do I change or cancel a recurring payment?",
+                "answer": "<p>Contact the merchant you set the payment up with first. If you still need help, <a href=\"https://druo.com/en/contact-us/\">get in touch with DRUO</a>.</p>"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "/platform": {
+    "root": {
+      "props": {
+        "title": "Overview · DRUO Dashboard",
+        "merchant": "Novo Coffee",
+        "user": "Ana Taylor",
+        "environment": "live",
+        "nav": [
+          {
+            "label": "Overview",
+            "href": "/platform",
+            "icon": "home"
+          },
+          {
+            "label": "Payments",
+            "href": "/platform/payments",
+            "icon": "payments"
+          },
+          {
+            "label": "Payouts",
+            "href": "/platform/payouts",
+            "icon": "payouts"
+          },
+          {
+            "label": "Developers",
+            "href": "https://developer.druo.com",
+            "icon": "developers"
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "type": "PageHeader",
+        "props": {
+          "id": "PageHeader-32",
+          "title": "Good morning, Ana",
+          "subtitle": "Here's how Novo Coffee is doing today.",
+          "actions": [
+            {
+              "type": "PlatformButton",
+              "props": {
+                "id": "PlatformButton-30",
+                "label": "Export",
+                "href": "#",
+                "variant": "secondary",
+                "icon": "download"
+              }
+            },
+            {
+              "type": "PlatformButton",
+              "props": {
+                "id": "PlatformButton-31",
+                "label": "Create payment link",
+                "href": "#",
+                "variant": "primary",
+                "icon": "plus"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-37",
+          "columns": "4",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-33",
+                "label": "Gross volume",
+                "value": "$48,210.55",
+                "delta": "+12.4%",
+                "trend": "up",
+                "caption": "vs last week",
+                "sparkline": "28,31,26,34,42,39,30,33,38,36,44,49,41,52",
+                "span": "1"
+              }
+            },
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-34",
+                "label": "Successful payments",
+                "value": "1,284",
+                "delta": "+8.1%",
+                "trend": "up",
+                "caption": "vs last week",
+                "sparkline": "80,84,79,90,96,94,88,91,97,95,102,108,104,112",
+                "span": "1"
+              }
+            },
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-35",
+                "label": "Average ticket",
+                "value": "$37.55",
+                "delta": "−2.3%",
+                "trend": "down",
+                "caption": "vs last week",
+                "sparkline": "40,39,41,38,39,37,38,37,36,38,37,36,37,37",
+                "span": "1"
+              }
+            },
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-36",
+                "label": "Dispute rate",
+                "value": "0.04%",
+                "delta": "0.00%",
+                "trend": "flat",
+                "caption": "No change",
+                "sparkline": "4,4,5,4,4,4,4,4,5,4,4,4,4,4",
+                "span": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-40",
+          "columns": "3",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "ChartCard",
+              "props": {
+                "id": "ChartCard-38",
+                "title": "Payment volume",
+                "value": "$52,418.20",
+                "caption": "Last 14 days",
+                "kind": "area",
+                "data": [
+                  {
+                    "label": "Oct 14",
+                    "value": 2800
+                  },
+                  {
+                    "label": "Oct 15",
+                    "value": 3100
+                  },
+                  {
+                    "label": "Oct 16",
+                    "value": 2600
+                  },
+                  {
+                    "label": "Oct 17",
+                    "value": 3400
+                  },
+                  {
+                    "label": "Oct 18",
+                    "value": 4200
+                  },
+                  {
+                    "label": "Oct 19",
+                    "value": 3900
+                  },
+                  {
+                    "label": "Oct 20",
+                    "value": 3000
+                  },
+                  {
+                    "label": "Oct 21",
+                    "value": 3300
+                  },
+                  {
+                    "label": "Oct 22",
+                    "value": 3800
+                  },
+                  {
+                    "label": "Oct 23",
+                    "value": 3600
+                  },
+                  {
+                    "label": "Oct 24",
+                    "value": 4400
+                  },
+                  {
+                    "label": "Oct 25",
+                    "value": 4900
+                  },
+                  {
+                    "label": "Oct 26",
+                    "value": 4100
+                  },
+                  {
+                    "label": "Oct 27",
+                    "value": 5200
+                  }
+                ],
+                "span": "2"
+              }
+            },
+            {
+              "type": "BalanceCard",
+              "props": {
+                "id": "BalanceCard-39",
+                "label": "Available balance",
+                "amount": "$12,480.20",
+                "account": "Santander ••1234",
+                "caption": "Next payout Oct 29",
+                "actionLabel": "Pay out now",
+                "actionHref": "/platform/payouts",
+                "tone": "dark",
+                "span": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-43",
+          "columns": "3",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "TransactionsTable",
+              "props": {
+                "id": "TransactionsTable-41",
+                "title": "Recent transactions",
+                "linkLabel": "View all",
+                "linkHref": "/platform/payments",
+                "rows": [
+                  {
+                    "amount": "$150.00",
+                    "id": "TX38GQ3ADFK",
+                    "status": "successful",
+                    "customer": "John Smith",
+                    "method": "Chase ••8719",
+                    "date": "Oct 27, 9:41 AM"
+                  },
+                  {
+                    "amount": "$75.00",
+                    "id": "TCN8F3I8HFAW",
+                    "status": "successful",
+                    "customer": "Michael Connelly",
+                    "method": "Bank of America ••2214",
+                    "date": "Oct 27, 9:12 AM"
+                  },
+                  {
+                    "amount": "$6,732.45",
+                    "id": "T8NCASWEF92",
+                    "status": "pending",
+                    "customer": "Anton Polk",
+                    "method": "Wells Fargo ••0766",
+                    "date": "Oct 27, 8:58 AM"
+                  },
+                  {
+                    "amount": "$17,550.00",
+                    "id": "TM7CN3ENC8D",
+                    "status": "successful",
+                    "customer": "Harbor Supply Co.",
+                    "method": "Santander ••1234",
+                    "date": "Oct 26, 6:20 PM"
+                  },
+                  {
+                    "amount": "$4.00",
+                    "id": "T8EFAEW0QF3",
+                    "status": "successful",
+                    "customer": "Courier",
+                    "method": "Santander ••1234",
+                    "date": "Oct 26, 4:03 PM"
+                  },
+                  {
+                    "amount": "$32.80",
+                    "id": "TVN8ECEASBE",
+                    "status": "failed",
+                    "customer": "Priya Natarajan",
+                    "method": "Capital One ••5530",
+                    "date": "Oct 26, 1:47 PM"
+                  }
+                ],
+                "span": "2"
+              }
+            },
+            {
+              "type": "ActivityFeed",
+              "props": {
+                "id": "ActivityFeed-42",
+                "title": "Activity",
+                "span": "1",
+                "items": [
+                  {
+                    "kind": "payment",
+                    "title": "$17,550.00 received",
+                    "meta": "Harbor Supply Co. · invoice #1042",
+                    "time": "2h"
+                  },
+                  {
+                    "kind": "payout",
+                    "title": "Payout sent",
+                    "meta": "$9,812.40 to Santander ••1234",
+                    "time": "5h"
+                  },
+                  {
+                    "kind": "customer",
+                    "title": "New autopay customer",
+                    "meta": "Lena Ortiz connected PNC ••4471",
+                    "time": "8h"
+                  },
+                  {
+                    "kind": "refund",
+                    "title": "Refund issued",
+                    "meta": "$19.90 to Marcus Lee",
+                    "time": "1d"
+                  },
+                  {
+                    "kind": "alert",
+                    "title": "Payment failed",
+                    "meta": "Insufficient funds · Priya Natarajan",
+                    "time": "1d"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "/platform/payments": {
+    "root": {
+      "props": {
+        "title": "Payments · DRUO Dashboard",
+        "merchant": "Novo Coffee",
+        "user": "Ana Taylor",
+        "environment": "live",
+        "nav": [
+          {
+            "label": "Overview",
+            "href": "/platform",
+            "icon": "home"
+          },
+          {
+            "label": "Payments",
+            "href": "/platform/payments",
+            "icon": "payments"
+          },
+          {
+            "label": "Payouts",
+            "href": "/platform/payouts",
+            "icon": "payouts"
+          },
+          {
+            "label": "Developers",
+            "href": "https://developer.druo.com",
+            "icon": "developers"
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "type": "PageHeader",
+        "props": {
+          "id": "PageHeader-46",
+          "title": "Payments",
+          "subtitle": "Every pay-by-bank payment from checkout, invoices and autopay.",
+          "actions": [
+            {
+              "type": "PlatformButton",
+              "props": {
+                "id": "PlatformButton-44",
+                "label": "Export CSV",
+                "href": "#",
+                "variant": "secondary",
+                "icon": "download"
+              }
+            },
+            {
+              "type": "PlatformButton",
+              "props": {
+                "id": "PlatformButton-45",
+                "label": "New payment",
+                "href": "#",
+                "variant": "primary",
+                "icon": "plus"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-51",
+          "columns": "4",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-47",
+                "label": "Collected this week",
+                "value": "$21,904.10",
+                "delta": "+9.6%",
+                "trend": "up",
+                "caption": "312 payments",
+                "sparkline": "12,14,13,16,18,17,21",
+                "span": "1"
+              }
+            },
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-48",
+                "label": "Pending",
+                "value": "$6,745.95",
+                "delta": "",
+                "trend": "flat",
+                "caption": "2 payments · clear in ~1 business day",
+                "sparkline": "3,5,4,6,5,7,6",
+                "span": "1"
+              }
+            },
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-49",
+                "label": "Failed",
+                "value": "$32.80",
+                "delta": "−40%",
+                "trend": "up",
+                "caption": "1 payment this week",
+                "sparkline": "5,4,4,3,2,2,1",
+                "span": "1"
+              }
+            },
+            {
+              "type": "StatCard",
+              "props": {
+                "id": "StatCard-50",
+                "label": "Refunded",
+                "value": "$19.90",
+                "delta": "",
+                "trend": "flat",
+                "caption": "1 refund · 0.09% of volume",
+                "sparkline": "1,0,1,0,0,1,1",
+                "span": "1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-54",
+          "columns": "1",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "FilterBar",
+              "props": {
+                "id": "FilterBar-52",
+                "filters": [
+                  {
+                    "label": "All"
+                  },
+                  {
+                    "label": "Successful"
+                  },
+                  {
+                    "label": "Pending"
+                  },
+                  {
+                    "label": "Failed"
+                  },
+                  {
+                    "label": "Refunded"
+                  }
+                ],
+                "searchPlaceholder": "Search by customer, amount or ID…"
+              }
+            },
+            {
+              "type": "TransactionsTable",
+              "props": {
+                "id": "TransactionsTable-53",
+                "title": "All payments",
+                "linkLabel": "",
+                "linkHref": "",
+                "rows": [
+                  {
+                    "amount": "$150.00",
+                    "id": "TX38GQ3ADFK",
+                    "status": "successful",
+                    "customer": "John Smith",
+                    "method": "Chase ••8719",
+                    "date": "Oct 27, 9:41 AM"
+                  },
+                  {
+                    "amount": "$75.00",
+                    "id": "TCN8F3I8HFAW",
+                    "status": "successful",
+                    "customer": "Michael Connelly",
+                    "method": "Bank of America ••2214",
+                    "date": "Oct 27, 9:12 AM"
+                  },
+                  {
+                    "amount": "$6,732.45",
+                    "id": "T8NCASWEF92",
+                    "status": "pending",
+                    "customer": "Anton Polk",
+                    "method": "Wells Fargo ••0766",
+                    "date": "Oct 27, 8:58 AM"
+                  },
+                  {
+                    "amount": "$17,550.00",
+                    "id": "TM7CN3ENC8D",
+                    "status": "successful",
+                    "customer": "Harbor Supply Co.",
+                    "method": "Santander ••1234",
+                    "date": "Oct 26, 6:20 PM"
+                  },
+                  {
+                    "amount": "$4.00",
+                    "id": "T8EFAEW0QF3",
+                    "status": "successful",
+                    "customer": "Courier",
+                    "method": "Santander ••1234",
+                    "date": "Oct 26, 4:03 PM"
+                  },
+                  {
+                    "amount": "$32.80",
+                    "id": "TVN8ECEASBE",
+                    "status": "failed",
+                    "customer": "Priya Natarajan",
+                    "method": "Capital One ••5530",
+                    "date": "Oct 26, 1:47 PM"
+                  },
+                  {
+                    "amount": "$58.25",
+                    "id": "TQ2LM8ZK1RA",
+                    "status": "successful",
+                    "customer": "Lena Ortiz",
+                    "method": "PNC ••4471",
+                    "date": "Oct 26, 11:05 AM"
+                  },
+                  {
+                    "amount": "$19.90",
+                    "id": "TB7HX0PL3WD",
+                    "status": "refunded",
+                    "customer": "Marcus Lee",
+                    "method": "TD Bank ••9902",
+                    "date": "Oct 25, 5:31 PM"
+                  },
+                  {
+                    "amount": "$240.00",
+                    "id": "TR5KD2NV8QE",
+                    "status": "successful",
+                    "customer": "Fernwood Café",
+                    "method": "US Bank ••3318",
+                    "date": "Oct 25, 2:16 PM"
+                  },
+                  {
+                    "amount": "$12.50",
+                    "id": "TJ9WE4CM6TS",
+                    "status": "pending",
+                    "customer": "Sofia Reyes",
+                    "method": "BBVA ••6025",
+                    "date": "Oct 25, 9:48 AM"
+                  }
+                ],
+                "span": "full"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "/platform/payouts": {
+    "root": {
+      "props": {
+        "title": "Payouts · DRUO Dashboard",
+        "merchant": "Novo Coffee",
+        "user": "Ana Taylor",
+        "environment": "live",
+        "nav": [
+          {
+            "label": "Overview",
+            "href": "/platform",
+            "icon": "home"
+          },
+          {
+            "label": "Payments",
+            "href": "/platform/payments",
+            "icon": "payments"
+          },
+          {
+            "label": "Payouts",
+            "href": "/platform/payouts",
+            "icon": "payouts"
+          },
+          {
+            "label": "Developers",
+            "href": "https://developer.druo.com",
+            "icon": "developers"
+          }
+        ]
+      }
+    },
+    "content": [
+      {
+        "type": "PageHeader",
+        "props": {
+          "id": "PageHeader-57",
+          "title": "Payouts",
+          "subtitle": "Move your DRUO balance to your business bank accounts.",
+          "actions": [
+            {
+              "type": "PlatformButton",
+              "props": {
+                "id": "PlatformButton-55",
+                "label": "Payout settings",
+                "href": "#",
+                "variant": "secondary",
+                "icon": "settings"
+              }
+            },
+            {
+              "type": "PlatformButton",
+              "props": {
+                "id": "PlatformButton-56",
+                "label": "Pay out now",
+                "href": "#",
+                "variant": "primary",
+                "icon": "payouts"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-59",
+          "columns": "1",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "Notice",
+              "props": {
+                "id": "Notice-58",
+                "tone": "info",
+                "title": "Next-day payouts are on.",
+                "text": "Balances available by 5 PM ET land in your account the next business day.",
+                "linkLabel": "Learn more",
+                "linkHref": "https://druo.com/en/contact-us/"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-63",
+          "columns": "3",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "BalanceCard",
+              "props": {
+                "id": "BalanceCard-60",
+                "label": "Available to pay out",
+                "amount": "$12,480.20",
+                "account": "Santander ••1234",
+                "caption": "Scheduled for Oct 29",
+                "actionLabel": "Pay out now",
+                "actionHref": "#",
+                "tone": "teal",
+                "span": "1"
+              }
+            },
+            {
+              "type": "BalanceCard",
+              "props": {
+                "id": "BalanceCard-61",
+                "label": "In transit",
+                "amount": "$9,812.40",
+                "account": "Santander ••1234",
+                "caption": "Arrives Oct 28",
+                "actionLabel": "",
+                "actionHref": "",
+                "tone": "mint",
+                "span": "1"
+              }
+            },
+            {
+              "type": "BankAccounts",
+              "props": {
+                "id": "BankAccounts-62",
+                "title": "Payout accounts",
+                "span": "1",
+                "accounts": [
+                  {
+                    "bank": "Santander",
+                    "mask": "1234",
+                    "type": "Business checking · default",
+                    "color": "#ec0000",
+                    "enabled": true
+                  },
+                  {
+                    "bank": "Chase",
+                    "mask": "8719",
+                    "type": "Business savings",
+                    "color": "#117aca",
+                    "enabled": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Grid",
+        "props": {
+          "id": "Grid-68",
+          "columns": "3",
+          "gap": "sm",
+          "items": [
+            {
+              "type": "ChartCard",
+              "props": {
+                "id": "ChartCard-64",
+                "title": "Payouts by week",
+                "value": "$61,207.85",
+                "caption": "Last 8 weeks",
+                "kind": "bar",
+                "data": [
+                  {
+                    "label": "Sep 1",
+                    "value": 6120
+                  },
+                  {
+                    "label": "Sep 8",
+                    "value": 7045
+                  },
+                  {
+                    "label": "Sep 15",
+                    "value": 6890
+                  },
+                  {
+                    "label": "Sep 22",
+                    "value": 7480
+                  },
+                  {
+                    "label": "Sep 29",
+                    "value": 8010
+                  },
+                  {
+                    "label": "Oct 6",
+                    "value": 7655
+                  },
+                  {
+                    "label": "Oct 13",
+                    "value": 8540
+                  },
+                  {
+                    "label": "Oct 20",
+                    "value": 9467
+                  }
+                ],
+                "span": "2"
+              }
+            },
+            {
+              "type": "Panel",
+              "props": {
+                "id": "Panel-67",
+                "title": "Payout schedule",
+                "description": "Applies to all payout accounts.",
+                "span": "1",
+                "body": [
+                  {
+                    "type": "DetailList",
+                    "props": {
+                      "id": "DetailList-65",
+                      "items": [
+                        {
+                          "label": "Frequency",
+                          "value": "Daily"
+                        },
+                        {
+                          "label": "Cut-off",
+                          "value": "5:00 PM ET"
+                        },
+                        {
+                          "label": "Arrival",
+                          "value": "Next business day"
+                        },
+                        {
+                          "label": "Minimum payout",
+                          "value": "$25.00"
+                        },
+                        {
+                          "label": "Fees",
+                          "value": "$0.00"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "PlatformButton",
+                    "props": {
+                      "id": "PlatformButton-66",
+                      "label": "Edit schedule",
+                      "href": "#",
+                      "variant": "secondary",
+                      "icon": "settings"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

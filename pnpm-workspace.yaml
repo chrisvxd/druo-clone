@@ -1,0 +1,4 @@
+# Dependencies allowed to run install scripts (required by pnpm 11+)
+
+allowBuilds:
+  esbuild: true
